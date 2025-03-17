@@ -4,7 +4,7 @@ const API = "http://localhost:3001/users";
 async function getData() {
   try {
     const response = await axios.get(API);
-    return response.data
+    return response.data;
   } catch (error) {
     console.log(error);
   }
@@ -17,4 +17,12 @@ async function postData(obj) {
     console.log(error);
   }
 }
-export { getData, postData };
+
+async function deleteData(id) {
+  try {
+    await axios.delete(`http://localhost:3001/users/${id}`);
+  } catch (error) {
+    console.log(error);
+  }
+}
+export { getData, postData, deleteData };
