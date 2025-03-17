@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "username": "Hello",
+      "email": "hello@mail.com",
+      "mobile": "13823929749",
+      "id": "f851"
+    },
+    {
+      "id": "e30c",
+      "username": "nidhi",
+      "email": "nidhi@gmail.com",
+      "mobile": "08752579031"
+    },
+    {
+      "id": "c88e",
+      "username": "guddy",
+      "email": "nidhi@gmail.com",
+      "mobile": "0873489031"
+    },
+    {
+      "id": "4ade",
+      "username": "guddy",
+      "email": "guddy@gmail.com",
+      "mobile": "9428937596"
+    }
+  ]
+}
